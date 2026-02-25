@@ -1,10 +1,20 @@
 # crypto-tracker
 
-Simple rpi4 crypto ticker with touchscreen display
+simple rpi4 crypto and tech stock ticker with touchscreen display - 60 second price refresh
 
-**Install dependencies:**
+### Setup
 
-`sudo apt install python3-tk -y`
-`pip3 install requests`
+`git clone https://github.com/nolimitcarter/crypto-tracker.git`
+`cd crypto-tracker`
 
+`python3 - venv dashboard-env`
+`source dashboard-env/bin/activate`
 
+`pip install requirements.txt`
+
+`python3 crypto-tracker1.py`
+
+### May need system dependencies
+
+`sudo apt update`
+`sudo apt install -y libopenblas-dev`
