@@ -1,0 +1,11 @@
+# Python environments
+venv/
+dashboard-env/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
