@@ -4,11 +4,11 @@ simple rpi4 crypto and tech stock ticker with touchscreen display - 60 second pr
 
 ### Setup
 
-`git clone https://github.com/nolimitcarter/crypto-tracker.git`
-`cd crypto-tracker`
+`git clone https://github.com/nolimitcarter/crypto-tracker.git`  
+`cd crypto-tracker`  
 
-`python3 - venv dashboard-env`
-`source dashboard-env/bin/activate`
+`python3 - venv dashboard-env`  
+`source dashboard-env/bin/activate`  
 
 `pip install requirements.txt`
 
@@ -16,5 +16,5 @@ simple rpi4 crypto and tech stock ticker with touchscreen display - 60 second pr
 
 ### May need system dependencies
 
-`sudo apt update`
+`sudo apt update`  
 `sudo apt install -y libopenblas-dev`
