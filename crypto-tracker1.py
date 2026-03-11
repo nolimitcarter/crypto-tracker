@@ -32,6 +32,7 @@ price_widgets = {}
 
 # ---------------- DATA FETCH ----------------
 
+
 def get_crypto():
     try:
         ids = ",".join([a[0] for a in ASSETS])
@@ -44,6 +45,7 @@ def get_crypto():
         return requests.get(url, params=params, timeout=10).json()
     except:
         return {}
+
 
 def get_stocks():
     try:
@@ -73,6 +75,7 @@ def get_stocks():
         return {}
 
 # ---------------- UI UPDATE ----------------
+
 
 def update_tile(symbol, price, change):
 
@@ -116,6 +119,7 @@ def refresh():
     threading.Thread(target=refresh_data, daemon=True).start()
 
 # ---------------- UI ----------------
+
 
 root = tk.Tk()
 root.attributes("-fullscreen", True)
