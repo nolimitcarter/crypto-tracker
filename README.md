@@ -1,6 +1,10 @@
 # crypto-tracker
 
-simple rpi4 crypto and tech stock ticker with touchscreen display - 60 second price refresh
+simple rpi4 crypto and tech stock ticker with touchscreen display 
+
+* 60 second price refresh
+* stock 24h change: market open to close
+* crypto 24h change: 12am 
 
 ### Setup
 
